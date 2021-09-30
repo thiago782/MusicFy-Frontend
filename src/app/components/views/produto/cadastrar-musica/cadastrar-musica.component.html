@@ -1,0 +1,17 @@
+<div id="nome">
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" [(ngModel)]="nome" />
+</div>
+<div id="cantor">
+    <label for="cantor">Cantor:</label>
+    <input type="text" name="cantor" [(ngModel)]="cantor" />
+</div>
+<div id="anoLancamento">
+    <label for="anoLancamento">anoLancamento:</label>
+    <input type="number" name="anoLancamento" [(ngModel)]="anoLancamento" />
+</div>
+<div id="estilo">
+    <label for="estilo">Estilo:</label>
+    <input type="text" name="estilo" [(ngModel)]="estilo" />
+</div>
+<button (click)="cadastrar()">Cadastrar</button>
